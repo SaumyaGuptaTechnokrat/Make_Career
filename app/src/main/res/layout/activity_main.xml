@@ -8,65 +8,82 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="490dp"
-        android:layout_height="159dp"
+        android:layout_width="407dp"
+        android:layout_height="127dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117"
         app:srcCompat="@drawable/makecareer"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="172dp" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="378dp"
-        android:layout_height="105dp"
+        android:layout_width="334dp"
+        android:layout_height="88dp"
         android:gravity="center"
         android:text="Login"
         android:textColor="@color/black"
         android:textSize="100px"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="378dp"
-        android:layout_height="105dp"
+        android:layout_width="335dp"
+        android:layout_height="74dp"
         android:gravity="center"
         android:text="Welcome back!"
         android:textColor="@color/black"
         android:textSize="100px"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="493dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="692dp"
-        android:layout_height="107dp"
+        android:layout_width="543dp"
+        android:layout_height="80dp"
         android:background="@drawable/border"
         android:ems="10"
 
         android:hint="Enter Your Username / Email"
         android:inputType="textEmailAddress"
         android:outlineProvider="bounds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="731dp" />
+        tools:layout_editor_absoluteX="137dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="693dp"
-        android:layout_height="110dp"
-        android:ems="10"
-        android:hint="Enter Your Password"
+        android:layout_width="540dp"
+        android:layout_height="79dp"
         android:background="@drawable/border"
+        android:ems="10"
 
+        android:hint="Enter Your Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="899dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,26 +94,32 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="696dp"
-        android:layout_height="96dp"
-        android:background="@drawable/buttonwithborder"
+        android:layout_width="388dp"
+        android:layout_height="56dp"
 
+        android:background="@drawable/buttonwithborder"
         android:text="Login"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="1112dp" />
+        tools:layout_editor_absoluteX="260dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="692dp"
-        android:layout_height="80dp"
+        android:layout_width="389dp"
+        android:layout_height="65dp"
         android:text="Forgot Password?"
         android:textAlignment="center"
         android:textColor="@color/blue"
         android:textSize="80px"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="1032dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
