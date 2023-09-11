@@ -84,6 +84,19 @@
         android:text="Login"
         android:textColor="@color/white"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="1088dp" />
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="1112dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="692dp"
+        android:layout_height="80dp"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="80px"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="1032dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
